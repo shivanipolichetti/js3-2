@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   
+    
+    </style>
+</head>
+<body>
+    <script>
+          var a=document.createElement("div");
+          document.body.appendChild(a);
+          a.setAttribute("style","border:2px solid;width:250px;height:200px;")
+
+          var one=document.createElement("img")
+          a.appendChild(one)
+
+         var b=document.createElement("div")
+         document.body.appendChild(b);
+         b.setAttribute("style","border:2px solid;width:250px;height:200px;")
+
+
+         var two=document.createElement("img")
+         b.appendChild(two)
+         two.src="./html.jpg";
+         two.setAttribute("style","border:2px solid;width:250px;height:200px;")
+         two.addEventListener("click",html)
+
+         function html(){
+            one.src="./html.jpg"
+            one.setAttribute("style","border:2px solid;width:250px;height:200px;")
+
+         }
+
+
+         var c=document.createElement("div")
+         document.body.appendChild(c)
+         c.setAttribute("style","border:2px solid;width:250px;height:200px;")
+
+
+         var three=document.createElement("img")
+         three.src="./css.png"
+         c.appendChild(three)
+         three.setAttribute("style","border:2px solid;width:250px;height:200px;")
+         three.addEventListener("click",css)
+        
+         function css(){
+            one.src="./css.png"
+            one.setAttribute("style","border:2px solid;width:250px;height:200px;")
+         }
+
+         var d=document.createElement("div")
+         document.body.appendChild(d)
+         d.setAttribute("style","border:2px solid;width:250px;height:200px;")
+
+         var four=document.createElement("img")
+         four.src="./js.jpg"
+         d.appendChild(four)
+         four.setAttribute("style","border:2px solid;width:250px;height:200px;")
+         four.addEventListener("click",js)
+
+         function js(){
+            one.src="./js.jpg"
+            one.setAttribute("style","border:2px solid;width:250px;height:200px;")
+         }
+        
+
+    </script>
+</body>
+</html>
+
+
+       
